@@ -247,8 +247,23 @@ body {
       display: grid;
       grid-template-columns: auto auto; } }
 
+#contactSec {
+  background-color: #fffae7; }
+
+.contact-header {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 1.5rem;
+  color: #f2921d;
+  text-transform: uppercase;
+  border-bottom: 3px solid #f2921d;
+  border-radius: 20%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
 .contact {
-  margin-top: 5rem;
+  margin-top: 2.5rem;
   background-color: #fffae7;
   display: flex;
   justify-content: space-between;
