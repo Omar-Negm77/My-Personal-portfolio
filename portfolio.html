@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./css/style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300&family=Poppins:ital,wght@0,100;0,900;1,100;1,200&display=swap"
+			rel="stylesheet"
+		/>
+		<title>Omar Negm</title>
+	</head>
+	<body>
+		<!-- Hero Section -->
+		<section class="hero">
+			<!-- Mobile Menu -->
+			<nav id="mobile-nav" class="hero__mobile-container">
+				<ul class="hero__mobile-list">
+					<li class="hero__mobile-item">
+						<a class="hero__mobile-link" href="./index.html">
+							<svg class="hero__mobile-icon">
+								<use xlink:href="./img/sprite.svg#icon-home2"></use>
+							</svg>
+						</a>
+					</li>
+					<li class="hero__mobile-item">
+						<a class="hero__mobile-link" href="./index.html#aboutMe">
+							<svg class="hero__mobile-icon">
+								<use xlink:href="./img/sprite.svg#icon-info"></use>
+							</svg>
+						</a>
+					</li>
+					<!-- <li class="hero__mobile-item">
+						<a class="hero__mobile-link" href="./index.html#portfolioProj">
+							<svg class="hero__mobile-icon">
+								<use xlink:href="./img/sprite.svg#icon-briefcase"></use>
+							</svg>
+						</a>
+					</li> -->
+					<li class="hero__mobile-item">
+						<a class="hero__mobile-link" href="#contactSec">
+							<svg class="hero__mobile-icon">
+								<use xlink:href="./img/sprite.svg#icon-address-book"></use>
+							</svg>
+						</a>
+					</li>
+				</ul>
+			</nav>
+			<!-- ///////////////////////////////////////////////////// -->
+			<nav class="hero__navigation">
+				<h2 class="hero__navigation-logo">O N</h2>
+				<ul class="hero__navigation-list">
+					<li class="hero__navigation-item">
+						<a class="hero__navigation-link" href="./index.html">Home</a>
+					</li>
+					<li class="hero__navigation-item">
+						<a class="hero__navigation-link" href="./index.html#aboutMe"
+							>About</a
+						>
+					</li>
+					<!-- <li class="hero__navigation-item">
+						<a class="hero__navigation-link" href="./portfolio.html"
+							>portfolio</a
+						>
+					</li> -->
+					<li class="hero__navigation-item">
+						<a class="hero__navigation-link" href="#contactSec">Contact</a>
+					</li>
+				</ul>
+				<svg class="hero__mobile-navham" onclick="showMobileMenu()">
+					<use xlink:href="./img/sprite.svg#icon-menu"></use>
+				</svg>
+			</nav>
+		</section>
+
+		<!-- portfolio -->
+		<section id="portfolioProj" class="portfolio">
+			<h1 class="portfolio__tag">Portfolio</h1>
+			<div class="portfolio__grid">
+
+				<div class="portfolio__grid-item">
+					<a target="_blank" href="https://omar-negm77.github.io/marketing-agency/">
+						<img class="portfolio__img" src="./img/Project Vision.png" alt="portfolio-project-img" width="80%" />
+					</a>
+					<p class="portfolio__desc">
+						A simple landing page using HTML & CSS & js
+						<a target="_blank" class="portfolio__grid-srccode" href="https://github.com/Omar-Negm77/marketing-agency">Source
+							code</a>
+					</p>
+				</div>
+
+				<div class="portfolio__grid-item">
+					<a
+						target="_blank"
+						href="https://omar-negm77.github.io/creative-agency/"
+					>
+						<img
+							class="portfolio__img"
+							src="./img/creative agency.png"
+							alt="portfolio-project-img"
+							width="80%"
+						/>
+					</a>
+					<p class="portfolio__desc">
+						A simple landing page using HTML & CSS & js
+						<a
+							target="_blank"
+							class="portfolio__grid-srccode"
+							href="https://github.com/Omar-Negm77/creative-agency"
+							>Source code</a
+						>
+					</p>
+				</div>
+
+						<div class="portfolio__grid-item">
+							<a target="_blank" href="https://omar-negm77.github.io/Larouki-website/">
+								<img class="portfolio__img" src="./img/Project larouki.png" alt="portfolio-project-img" />
+							</a>
+							<p class="portfolio__desc">
+								A simple landing page using HTML & CSS
+								<a target="_blank" class="portfolio__grid-srccode" href="https://github.com/Omar-Negm77/Larouki-website">Source
+									code</a>
+							</p>
+						</div>
+
+				<div class="portfolio__grid-item">
+					<a
+						target="_blank"
+						href="https://omar-negm77.github.io/Tin-dog-LandingPage/"
+					>
+						<img
+							class="portfolio__img"
+							src="./img/Project Tindog.png"
+							alt="portfolio-project-img"
+						/>
+					</a>
+					<p class="portfolio__desc">
+						A simple landing page using HTML, CSS and Bootstrap
+						<a
+							target="_blank"
+							class="portfolio__grid-srccode"
+							href="https://github.com/Omar-Negm77/Tin-dog-LandingPage"
+							>Source code</a
+						>
+					</p>
+				</div>
+				<div class="portfolio__grid-item">
+					<a target="_blank" href="https://omar-negm77.github.io/Trillo/">
+						<img
+							class="portfolio__img"
+							src="./img/Project Trillo.png"
+							alt="portfolio-project-img"
+						/>
+					</a>
+					<p class="portfolio__desc">
+						A simple landing page using HTML & CSS
+						<a
+							target="_blank"
+							class="portfolio__grid-srccode"
+							href="https://github.com/Omar-Negm77/Trillo"
+							>Source code</a
+						>
+					</p>
+				</div>
+				<div class="portfolio__grid-item">
+					<a target="_blank" href="https://githubfinder-omar.netlify.app/">
+						<img
+							class="portfolio__img"
+							src="./img/project-github finder.png"
+							alt="portfolio-project-img"
+						/>
+					</a>
+					<p class="portfolio__desc">
+						React App ( To search for github users through Github's API ) Using
+						Hooks and Context API
+						<a
+							target="_blank"
+							class="portfolio__grid-srccode"
+							href="https://github.com/Omar-Negm77/GitHub-Finder"
+							>Source code</a
+						>
+					</p>
+				</div>
+				<div class="portfolio__grid-item">
+					<a
+						target="_blank"
+						href="https://main--tasks-track-app-react.netlify.app/"
+					>
+						<img
+							class="portfolio__img"
+							src="./img/project-task-tracker.png"
+							alt="portfolio-project-img"
+						/>
+					</a>
+					<p class="portfolio__desc">
+						A simple React App for tracking tasks Using components, props,
+						state, hooks
+						<a
+							target="_blank"
+							class="portfolio__grid-srccode"
+							href="https://github.com/Omar-Negm77/task-tracker-react"
+							>Source code</a
+						>
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- Contact section -->
+		<section id="contactSec" class="contact">
+			<div class="contact__social">
+				<a
+					target="_blank"
+					class="contact__link"
+					href="https://www.linkedin.com/in/omar-kandil-6018b3205/"
+				>
+					<svg class="contact__icon">
+						<use xlink:href="./img/sprite.svg#icon-linkedin"></use>
+					</svg>
+				</a>
+
+				<a
+					target="_blank"
+					class="contact__link"
+					href="https://github.com/Omar-Negm77"
+				>
+					<svg class="contact__icon">
+						<use xlink:href="./img/sprite.svg#icon-github"></use>
+					</svg>
+				</a>
+			</div>
+			<div class="contact__email">
+				<a
+					target="_blank"
+					class="contact__link"
+					href="mailto:Omar.Negm77@gmail.com"
+				>
+					<svg class="contact__icon">
+						<use xlink:href="./img/sprite.svg#icon-gmail"></use>
+					</svg>
+				</a>
+				<p>Omar.negm77@gmail.com</p>
+			</div>
+		</section>
+		<script src="main.js"></script>
+	</body>
+</html>

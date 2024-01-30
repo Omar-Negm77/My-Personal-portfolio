@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./css/style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300&family=Poppins:ital,wght@0,100;0,900;1,100;1,200&display=swap"
+			rel="stylesheet"
+		/>
+		<title>Omar Negm</title>
+	</head>
+	<body>
+		<!-- Hero Section -->
+		<section class="hero">
+			<!-- Mobile Menu -->
+			<nav id="mobile-nav" class="hero__mobile-container">
+				<ul class="hero__mobile-list">
+					<li class="hero__mobile-item">
+						<a class="hero__mobile-link" href="#">
+							<svg class="hero__mobile-icon">
+								<use xlink:href="./img/sprite.svg#icon-home2"></use>
+							</svg>
+						</a>
+					</li>
+					<li class="hero__mobile-item">
+						<a class="hero__mobile-link" href="#aboutMe">
+							<svg class="hero__mobile-icon">
+								<use xlink:href="./img/sprite.svg#icon-info"></use>
+							</svg>
+						</a>
+					</li>
+					<li class="hero__mobile-item">
+						<a class="hero__mobile-link" href="#portfolioProj">
+							<svg class="hero__mobile-icon">
+								<use xlink:href="./img/sprite.svg#icon-briefcase"></use>
+							</svg>
+						</a>
+					</li>
+					<li class="hero__mobile-item">
+						<a class="hero__mobile-link" href="#contactSec">
+							<svg class="hero__mobile-icon">
+								<use xlink:href="./img/sprite.svg#icon-address-book"></use>
+							</svg>
+						</a>
+					</li>
+				</ul>
+			</nav>
+			<!-- ///////////////////////////////////////////////////// -->
+			<nav class="hero__navigation">
+				<h2 class="hero__navigation-logo">O N</h2>
+				<ul class="hero__navigation-list">
+					<li class="hero__navigation-item">
+						<a class="hero__navigation-link" href="#">Home</a>
+					</li>
+					<li class="hero__navigation-item">
+						<a class="hero__navigation-link" href="#aboutMe">About</a>
+					</li>
+					<li class="hero__navigation-item">
+						<a class="hero__navigation-link" href="#portfolioProj">portfolio</a>
+					</li>
+					<li class="hero__navigation-item">
+						<a class="hero__navigation-link" href="#contactSec">Contact</a>
+					</li>
+				</ul>
+				<svg class="hero__mobile-navham" onclick="showMobileMenu()">
+					<use xlink:href="./img/sprite.svg#icon-menu"></use>
+				</svg>
+			</nav>
+			<div class="hero__intro">
+				<div class="hero__intro-quote">
+					<h1>Hello!</h1>
+					<h4>I'm <span class="hero__intro-name">Omar Negm</span></h4>
+					<p>Frontend web developer</p>
+				</div>
+				<div class="hero__intro-img">
+					<img class="hero__intro-photo" src="./img/1682424429886.png" alt="" />
+				</div>
+			</div>
+		</section>
+
+		<!-- Skills section -->
+
+		<section id="aboutMe" class="about">
+			<div class="about__intro">
+				<p>
+					<span>I am a Frontend Web Developer</span><br />
+					With a background in multiple fields including accounting, sales and
+					procurement. <br />
+					After working in the chemical raw materials and heavy equipment spare
+					parts fields for more than +10 years,<br />
+					I discovered a passion for coding, especially in web development,
+					<br />
+					that I decided to self-learn through online courses and projects.
+					<br />
+					Looking to leverage my problem-solving skills and build upon my
+					experience by transitioning into the programming field.
+					<br /><br />
+					<span>Programming Skills &darr;</span>
+					HTML / CSS / JS / Git / Github / React / Redux / Nodejs / MongoDB
+				</p>
+			</div>
+			<div class="about__grid">
+				<!-- HTML / CSS / JS / Git / Github / React / Nodejs / Redux / MongoDB -->
+
+				<svg class="about__grid-item">
+					<use xlink:href="./img/sprite.svg#icon-html-five2"></use>
+				</svg>
+
+				<svg class="about__grid-item">
+					<use xlink:href="./img/sprite.svg#icon-css3"></use>
+				</svg>
+				<svg class="about__grid-item">
+					<use xlink:href="./img/sprite.svg#icon-javascript"></use>
+				</svg>
+				<svg class="about__grid-item">
+					<use xlink:href="./img/sprite.svg#icon-git"></use>
+				</svg>
+				<svg class="about__grid-item">
+					<use xlink:href="./img/sprite.svg#icon-github"></use>
+				</svg>
+				<svg class="about__grid-item">
+					<use xlink:href="./img/sprite.svg#icon-react"></use>
+				</svg>
+				<svg class="about__grid-item">
+					<use xlink:href="./img/sprite.svg#icon-redux"></use>
+				</svg>
+				<svg class="about__grid-item">
+					<use xlink:href="./img/sprite.svg#icon-node-dot-js"></use>
+				</svg>
+				<svg class="about__grid-item">
+					<use xlink:href="./img/sprite.svg#icon-mongodb"></use>
+				</svg>
+			</div>
+		</section>
+
+		<!-- portfolio -->
+		<section id="portfolioProj" class="portfolio">
+			<h1 class="portfolio__tag">Portfolio</h1>
+			<div class="portfolio__grid">
+				<div class="portfolio__grid-item">
+					<a
+						target="_blank"
+						href="https://omar-negm77.github.io/Larouki-website/"
+					>
+						<img
+							class="portfolio__img"
+							src="./img/Project larouki.png"
+							alt="portfolio-project-img"
+						/>
+					</a>
+					<p class="portfolio__desc">
+						A simple landing page using HTML & CSS
+						<a
+							target="_blank"
+							class="portfolio__grid-srccode"
+							href="https://github.com/Omar-Negm77/Larouki-website"
+							>Source code</a
+						>
+					</p>
+				</div>
+
+				<div class="portfolio__grid-item">
+					<a
+						target="_blank"
+						href="https://omar-negm77.github.io/Tin-dog-LandingPage/"
+					>
+						<img
+							class="portfolio__img"
+							src="./img/Project Tindog.png"
+							alt="portfolio-project-img"
+						/>
+					</a>
+					<p class="portfolio__desc">
+						A simple landing page using HTML, CSS and Bootstrap
+						<a
+							target="_blank"
+							class="portfolio__grid-srccode"
+							href="https://github.com/Omar-Negm77/Tin-dog-LandingPage"
+							>Source code</a
+						>
+					</p>
+				</div>
+				<div class="portfolio__grid-item">
+					<a target="_blank" href="https://omar-negm77.github.io/Trillo/">
+						<img
+							class="portfolio__img"
+							src="./img/Project Trillo.png"
+							alt="portfolio-project-img"
+						/>
+					</a>
+					<p class="portfolio__desc">
+						A simple landing page using HTML & CSS
+						<a
+							target="_blank"
+							class="portfolio__grid-srccode"
+							href="https://github.com/Omar-Negm77/Trillo"
+							>Source code</a
+						>
+					</p>
+				</div>
+				<div class="portfolio__grid-item">
+					<a target="_blank" href="https://githubfinder-omar.netlify.app/">
+						<img
+							class="portfolio__img"
+							src="./img/project-github finder.png"
+							alt="portfolio-project-img"
+						/>
+					</a>
+					<p class="portfolio__desc">
+						React App ( To search for github users through Github's API ) Using
+						Hooks and Context API
+						<a
+							target="_blank"
+							class="portfolio__grid-srccode"
+							href="https://github.com/Omar-Negm77/GitHub-Finder"
+							>Source code</a
+						>
+					</p>
+				</div>
+
+				<div class="portfolio__grid-item">
+					<a
+						target="_blank"
+						href="https://main--tasks-track-app-react.netlify.app/"
+					>
+						<img
+							class="portfolio__img"
+							src="./img/project-task-tracker.png"
+							alt="portfolio-project-img"
+						/>
+					</a>
+					<p class="portfolio__desc">
+						A simple React App for tracking tasks Using components, props,
+						state, hooks
+						<a
+							target="_blank"
+							class="portfolio__grid-srccode"
+							href="https://github.com/Omar-Negm77/task-tracker-react"
+							>Source code</a
+						>
+					</p>
+				</div>
+
+				<div class="portfolio__grid-item">
+					<img class="portfolio__img" src="./img/Programming.jpg" alt="" />
+
+					<p class="portfolio__desc">
+						See all projects
+						<a class="portfolio__grid-srccode" href="./portfolio.html"
+							>More Projects</a
+						>
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- Contact section -->
+		<section id="contactSec">
+			<h3 class="contact-header">Contact</h3>
+			<div class="contact">
+				<div class="contact__social">
+					<a
+						target="_blank"
+						class="contact__link"
+						href="https://www.linkedin.com/in/omar-kandil-6018b3205/"
+					>
+						<svg class="contact__icon">
+							<use xlink:href="./img/sprite.svg#icon-linkedin"></use>
+						</svg>
+					</a>
+
+					<a
+						target="_blank"
+						class="contact__link"
+						href="https://github.com/Omar-Negm77"
+					>
+						<svg class="contact__icon">
+							<use xlink:href="./img/sprite.svg#icon-github"></use>
+						</svg>
+					</a>
+				</div>
+				<div class="contact__email">
+					<a
+						target="_blank"
+						class="contact__link"
+						href="mailto:Omar.Negm77@gmail.com"
+					>
+						<svg class="contact__icon">
+							<use xlink:href="./img/sprite.svg#icon-gmail"></use>
+						</svg>
+					</a>
+					<p>Omar.negm77@gmail.com</p>
+				</div>
+			</div>
+		</section>
+		<script src="main.js"></script>
+	</body>
+</html>
